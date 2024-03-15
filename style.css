@@ -40,6 +40,7 @@ header{
 }
 .menu-links li:hover{
     color: #006241;
+    cursor: pointer;
 }
 .signin-links{
     display: flex;
@@ -63,6 +64,10 @@ header{
 .find-store{
     padding-right: 45px;
 }
+.find-store:hover{
+    color: #006241;
+    cursor: pointer;
+}
 .sign-in{
     color: rgba(0, 0, 0, .87);
     background-color: #ffffff;
@@ -73,6 +78,10 @@ header{
     align-items: center;
 
 }
+.sign-in:hover{
+    background-color: rgba(119, 119, 119, 0.144);
+    cursor: pointer;
+}
 .join-now{
     background-color: rgba(0, 0, 0, .87);
     color: #ffffff;
@@ -81,6 +90,10 @@ header{
     padding: 8px 14px;
     display: flex;
     align-items: center;
+}
+.join-now:hover{
+    background-color: rgb(95, 95, 95);
+    cursor: pointer;
 }
 
 .container-one{
@@ -123,6 +136,10 @@ header{
   border-radius: 20em;
   cursor: pointer;
 }
+.button-one:hover{
+    background-color: rgba(119, 119, 119, 0.144);
+    cursor: pointer;
+}
 
 .container-two{
     display: flex; 
@@ -161,6 +178,10 @@ header{
     background: #b2b267;
     border: 1px solid black;
     border-radius: 20em;
+    cursor: pointer;
+}
+.button-two:hover{
+    background-color: rgba(119, 119, 119, 0.144);
     cursor: pointer;
 }
 
@@ -203,6 +224,10 @@ header{
     border-radius: 20em;
     cursor: pointer;
 }
+.button-three:hover{
+    background-color: rgba(119, 119, 119, 0.144);
+    cursor: pointer;
+}
 .container-four{
     display: flex; 
     background-color:  #337481;
@@ -242,12 +267,16 @@ header{
     border-radius: 20em;
     cursor: pointer;
 }
+.button-four:hover{
+    background-color: rgba(119, 119, 119, 0.144);
+    cursor: pointer;
+}
 .container-five{
     display: flex; 
     background-color:  #006241;
     margin-top: 31px;
     margin-left: 209px;
-    margin-right: 207px;
+    margin-right: 209px;
     
 }
 .container-five img{
@@ -265,6 +294,7 @@ header{
 .text-five h1{
     color: white;
     font-size: 24px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif
 }
 .text-five p{
     color: white;
@@ -281,6 +311,10 @@ header{
     border-radius: 20em;
     cursor: pointer;
 }
+.button-five:hover{
+    background-color: rgba(119, 119, 119, 0.144);
+    cursor: pointer;
+}
 .offer{
     margin: 70px;
     font-size: 17px; 
@@ -289,6 +323,13 @@ header{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+}
+.offer-para a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.offer-para a:hover{
+    text-decoration: none;
 }
 footer{
     box-shadow: inset rgba(128, 128,128,0.726) 0 1px 3px;
@@ -335,6 +376,9 @@ footer{
     height: 10px;
     width: 40px;
 }
+.social a i:hover{
+    cursor: pointer;
+}
 .terms{
     margin-top: 10px;
     margin-left: 180px;
@@ -344,6 +388,9 @@ footer{
     color: black;
     text-decoration: none;
     padding: 20px;
+}
+.terms a:hover{
+    text-decoration: underline;
 }
 .copyright{ 
     margin-left: 216px;
