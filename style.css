@@ -100,7 +100,7 @@ header{
     display: flex; 
     background-color: #006241;
     margin-top: 31px;
-    margin-left: 209px;
+    margin-left: 207px;
     margin-right: 207px;
     
 }
@@ -111,7 +111,7 @@ header{
 .container-one .text-one{
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -119,16 +119,20 @@ header{
 .text-one h1{
     color: #ffffff;
     font-size: 24px;
+    padding: 15px;
 }
 .text-one p{
     color: #ffffff;
+    font-family: 19px;
     letter-spacing: 1px;
     line-height: 30px;
+    padding: 15px;
 }
 
 .button-one{
   font-weight: 500;
   font-size: 16px;
+  margin: 15px;
   padding: 0.7em 1.4em 0.7em 1.1em;
   color: white;
   background: #006241;
@@ -145,7 +149,7 @@ header{
     display: flex; 
     background-color:  #b2b267;
     margin-top: 31px;
-    margin-left: 209px;
+    margin-left: 207px;
     margin-right: 207px;
     
 }
@@ -156,23 +160,27 @@ header{
 .container-two .text-two{
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
 }
 .text-two h1{
     color: black;
-    font-size: 24px;
+    font-size: 50px;
+    padding: 15px;
 }
 .text-two p{
     color: black;
+    font-size: 24px;
     letter-spacing: 1px;
     line-height: 30px;
+    padding: 15px;
 }
 .button-two{
     font-weight: 500;
     font-size: 16px;
+    margin: 15PX;
     padding: 0.7em 1.4em 0.7em 1.1em;
     color: black;
     background: #b2b267;
@@ -189,7 +197,7 @@ header{
     display: flex; 
     background-color:  #e99264;
     margin-top: 31px;
-    margin-left: 209px;
+    margin-left: 207px;
     margin-right: 207px;
     
 }
@@ -200,23 +208,27 @@ header{
 .container-three .text-three{
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
 }
 .text-three h1{
     color: black;
-    font-size: 24px;
+    font-size: 50px;
+    padding: 15px;
 }
 .text-three p{
     color: black;
+    font-size: 24px;
     letter-spacing: 1px;
     line-height: 30px;
+    padding: 15px;
 }
 .button-three{
     font-weight: 500;
     font-size: 16px;
+    margin: 15px;
     padding: 0.7em 1.4em 0.7em 1.1em;
     color: black;
     background: #e99264;
@@ -232,7 +244,7 @@ header{
     display: flex; 
     background-color:  #337481;
     margin-top: 31px;
-    margin-left: 209px;
+    margin-left: 207px;
     margin-right: 207px;
     
 }
@@ -243,23 +255,27 @@ header{
 .container-four .text-four{
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
 }
 .text-four h1{
     color: white;
-    font-size: 24px;
+    font-size: 50px;
+    padding: 15px;
 }
 .text-four p{
     color: white;
+    font-size: 24px;
     letter-spacing: 1px;
     line-height: 30px;
+    padding: 15px;
 }
 .button-four{
     font-weight: 500;
     font-size: 16px;
+    margin: 15px;
     padding: 0.7em 1.4em 0.7em 1.1em;
     color: white;
     background: #337481;
@@ -275,8 +291,8 @@ header{
     display: flex; 
     background-color:  #006241;
     margin-top: 31px;
-    margin-left: 209px;
-    margin-right: 209px;
+    margin-left: 207px;
+    margin-right: 207px;
     
 }
 .container-five img{
@@ -286,7 +302,7 @@ header{
 .container-five .text-five{
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -294,16 +310,18 @@ header{
 .text-five h1{
     color: white;
     font-size: 24px;
-    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif
+    padding: 15px;
 }
 .text-five p{
     color: white;
     letter-spacing: 1px;
     line-height: 30px;
+    padding: 15px;
 }
 .button-five{
     font-weight: 500;
     font-size: 16px;
+    margin: 15px;
     padding: 0.7em 1.4em 0.7em 1.1em;
     color: white;
     background: #006241;
@@ -367,7 +385,12 @@ footer{
 .footer ul a li{
     padding-top: 30px;
 }
-
+.footer ul a li:hover{
+    color: black;
+}
+footer hr{
+    margin: 0px 200px;
+}
 .social{
     margin-top: 65px;
     margin-left: 220px
